@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>R.S. Enterprises | Premium Paper Box & Packaging Manufacturer India</title>
+  <meta name="description" content="R.S. Enterprises — premium paper box manufacturer, custom packaging, mono cartons, folding cartons, and printed cartons for FMCG, pharma & retail brands across India. Request a quote.">
+  <meta name="keywords" content="paper box manufacturer, packaging company India, printed carton manufacturer, custom packaging solutions, folding carton manufacturer, mono carton supplier, packaging manufacturer Delhi NCR, product packaging company">
+  <meta name="author" content="R.S. Enterprises">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.rsenterprises.in/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="R.S. Enterprises | Premium Packaging Manufacturer India">
+  <meta property="og:description" content="Custom paper boxes, mono cartons, folding cartons, and premium printed packaging for growing brands across India.">
+  <meta property="og:url" content="https://www.rsenterprises.in/">
+  <meta property="og:site_name" content="R.S. Enterprises">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="R.S. Enterprises | Premium Packaging Manufacturer India">
+  <meta name="twitter:description" content="Custom paper boxes, mono cartons, folding cartons and premium packaging solutions for brands across India.">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "R.S. Enterprises",
+    "description": "Premium paper box manufacturer and packaging solutions company specializing in mono cartons, folding cartons, printed cartons, and custom packaging for FMCG, pharma, and retail brands.",
+    "url": "https://www.rsenterprises.in/",
+    "email": "enquiry@rsenterprises.in",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IN",
+      "addressRegion": "Delhi NCR"
+    },
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Paper Boxes" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mono Cartons" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Printed Cartons" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Luxury Packaging" } }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What packaging products does R.S. Enterprises manufacture?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We manufacture mono cartons, folding cartons, luxury rigid boxes, printed product boxes, and retail display packaging." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which industries do you serve?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We serve FMCG, pharmaceuticals, cosmetics, electronics, apparel, food & beverage, and e-commerce brands across India." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is your packaging eco-friendly?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. We use recycled duplex board, water-based inks, and responsible sourcing to minimise environmental impact." }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CDN Stack (pinned) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <!-- Lightweight Motion shim (avoids framer-motion CDN dual-React conflicts) -->
+  <script>
+  (function() {
+    var R = window.React;
+
+    function toStyle(p) {
+      if (!p) return {};
+      var s = {}, tr = [];
+      if (p.y     !== undefined) tr.push('translateY(' + p.y + 'px)');
+      if (p.x     !== undefined) tr.push('translateX(' + p.x + 'px)');
+      if (p.scale !== undefined) tr.push('scale(' + p.scale + ')');
+      if (tr.length) s.transform = tr.join(' ');
+      if (p.opacity !== undefined) s.opacity = p.opacity;
+      if (p.filter  !== undefined) s.filter  = p.filter;
+      return s;
+    }
+
+    function toFrame(obj) {
+      var f = {};
+      Object.keys(obj).forEach(function(k) {
+        var v = obj[k];
+        if      (k === 'y')       f.transform = 'translateY(' + v + 'px)';
+        else if (k === 'x')       f.transform = 'translateX(' + v + 'px)';
+        else if (k === 'scale')   f.transform = 'scale(' + v + ')';
+        else if (k === 'opacity') f.opacity = v;
+        else if (k === 'filter')  f.filter  = v;
+      });
+      return f;
+    }
+
+    function createEl(tag) {
+      return R.forwardRef(function MotionEl(props, fwdRef) {
+        var initial    = props.initial    || {};
+        var animate    = props.animate    || {};
+        var transition = props.transition || {};
+        var elRef = R.useRef(null);
+        var ref   = fwdRef || elRef;
+
+        // Start from initial styles
+        var initStyle = toStyle(initial);
+        var _s = R.useState(initStyle);
+        var currentStyle = _s[0], setStyle = _s[1];
+        var prevKey = R.useRef(null);
+
+        R.useEffect(function() {
+          var key = JSON.stringify(animate);
+          if (key === prevKey.current) return;
+          prevKey.current = key;
+
+          var empty = !animate || Object.keys(animate).length === 0;
+          if (empty) { setStyle(toStyle(initial)); return; }
+
+          var delay    = ((transition.delay    || 0)) * 1000;
+          var duration = ((transition.duration || 0.4)) * 1000;
+          var hasKF    = Object.values(animate).some(Array.isArray);
+
+          var tid = setTimeout(function() {
+            var node = elRef.current;
+            if (!node) return;
+
+            if (hasKF) {
+              var entries = Object.entries(animate);
+              var len = Math.max.apply(null, entries.map(function(e) {
+                return Array.isArray(e[1]) ? e[1].length : 1;
+              }));
+              var keyframes = Array.from({length: len}, function(_, i) {
+                var f = {};
+                entries.forEach(function(e) {
+                  var k = e[0], v = e[1];
+                  var val = Array.isArray(v) ? v[Math.min(i, v.length - 1)] : v;
+                  Object.assign(f, toFrame(Object.fromEntries([[k, val]])));
+                });
+                return f;
+              });
+              var opts = { duration: duration, fill: 'forwards', easing: 'ease-out' };
+              if (transition.times) opts.offset = transition.times;
+              node.animate(keyframes, opts);
+              // Sync final React style
+              var finalObj = {};
+              entries.forEach(function(e) {
+                var k = e[0], v = e[1];
+                finalObj[k] = Array.isArray(v) ? v[v.length - 1] : v;
+              });
+              setStyle(toStyle(finalObj));
+            } else {
+              setStyle(toStyle(animate));
+            }
+          }, delay);
+
+          return function() { clearTimeout(tid); };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        }, [JSON.stringify(animate)]);
+
+        var ease = transition.ease === 'easeOut'    ? 'cubic-bezier(0,0,0.2,1)' :
+                   transition.type === 'spring'     ? 'cubic-bezier(0.34,1.56,0.64,1)' : 'ease';
+        var dur = ((transition.duration || 0.4)) + 's';
+        var trStr = 'opacity ' + dur + ' ' + ease + ', transform ' + dur + ' ' + ease + ', filter ' + dur + ' ' + ease;
+
+        // Strip motion-only props before passing to DOM element
+        var domProps = {};
+        Object.keys(props).forEach(function(k) {
+          if (['initial','animate','transition','whileHover','whileTap'].indexOf(k) === -1) {
+            domProps[k] = props[k];
+          }
+        });
+
+        return R.createElement(tag, Object.assign({}, domProps, {
+          ref: ref,
+          style: Object.assign({}, props.style, currentStyle, { transition: trStr }),
+        }));
+      });
+    }
+
+    var motion = {};
+    ['div','a','p','span','section','article','header','button','nav','li','ul'].forEach(function(tag) {
+      motion[tag] = createEl(tag);
+    });
+
+    window.Motion = { motion: motion };
+  })();
+  </script>
+
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['Instrument Serif', 'serif'],
+            body: ['Barlow', 'sans-serif'],
+          },
+          borderRadius: {
+            DEFAULT: '9999px',
+          },
+          colors: {
+            gold: '#D4AF37',
+            kraft: '#C8A97E',
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: #050505; font-family: 'Barlow', sans-serif; margin: 0; padding: 0; }
+
+    /* ── Liquid Glass ── */
+    .liquid-glass {
+      background: rgba(255,255,255,0.01);
+      background-blend-mode: luminosity;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border: none;
+      box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    .liquid-glass::before {
+      content: "";
+      position: absolute; inset: 0;
+      border-radius: inherit;
+      padding: 1.4px;
+      background: linear-gradient(180deg,
+        rgba(255,255,255,0.45) 0%,
+        rgba(255,255,255,0.15) 20%,
+        rgba(255,255,255,0)    40%,
+        rgba(255,255,255,0)    60%,
+        rgba(255,255,255,0.15) 80%,
+        rgba(255,255,255,0.45) 100%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+    .liquid-glass-strong {
+      background: rgba(255,255,255,0.01);
+      background-blend-mode: luminosity;
+      backdrop-filter: blur(50px);
+      -webkit-backdrop-filter: blur(50px);
+      border: none;
+      box-shadow: 4px 4px 4px rgba(0,0,0,0.05), inset 0 1px 1px rgba(255,255,255,0.15);
+      position: relative;
+      overflow: hidden;
+    }
+    .liquid-glass-strong::before {
+      content: "";
+      position: absolute; inset: 0;
+      border-radius: inherit;
+      padding: 1.4px;
+      background: linear-gradient(180deg,
+        rgba(255,255,255,0.5) 0%,
+        rgba(255,255,255,0.2) 20%,
+        rgba(255,255,255,0)   40%,
+        rgba(255,255,255,0)   60%,
+        rgba(255,255,255,0.2) 80%,
+        rgba(255,255,255,0.5) 100%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 3px; }
+    ::-webkit-scrollbar-track { background: #050505; }
+    ::-webkit-scrollbar-thumb { background: rgba(212,175,55,0.35); border-radius: 2px; }
+
+    /* ── Form inputs ── */
+    .form-field {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.09);
+      color: #fff;
+      padding: 11px 15px;
+      border-radius: 14px;
+      font-family: 'Barlow', sans-serif;
+      font-size: 0.9rem;
+      width: 100%;
+      transition: border-color 0.2s, background 0.2s;
+      outline: none;
+    }
+    .form-field:focus {
+      border-color: rgba(212,175,55,0.55);
+      background: rgba(255,255,255,0.08);
+    }
+    .form-field::placeholder { color: rgba(255,255,255,0.32); }
+    select.form-field option { background: #111; color: #fff; }
+    textarea.form-field { resize: vertical; min-height: 96px; }
+
+    /* ── Headline word reveal (pure CSS, always ends visible) ── */
+    @keyframes wordBlurIn {
+      0%   { opacity:0; filter:blur(10px); transform:translateY(14px); }
+      100% { opacity:1; filter:blur(0);   transform:translateY(0); }
+    }
+    .blur-word {
+      display:inline-block;
+      opacity:0;
+      animation: wordBlurIn 0.7s cubic-bezier(0,0,0.2,1) forwards;
+    }
+
+    /* ── Packaging factory animation (hero) ── */
+    .factory { position:absolute; inset:0; overflow:hidden; }
+    .factory svg { width:100%; height:100%; display:block; }
+
+    /* kraft sheets running through the press */
+    @keyframes sheet-run {
+      0%   { transform: translateX(-240px) rotate(-7deg); opacity:0; }
+      12%  { opacity:.45; }
+      88%  { opacity:.45; }
+      100% { transform: translateX(820px) rotate(-7deg); opacity:0; }
+    }
+    .sheet   { animation: sheet-run 9s linear infinite; }
+    .sheet-2 { animation-delay: 3s; }
+    .sheet-3 { animation-delay: 6s; }
+
+    /* die-cut outline tracing */
+    @keyframes diecut-draw {
+      0%   { stroke-dashoffset: 1600; opacity:0; }
+      3%   { opacity:1; }
+      17%  { stroke-dashoffset: 0; opacity:1; }
+      26%  { opacity:1; }
+      33%  { opacity:0; }
+      100% { opacity:0; }
+    }
+    .diecut {
+      stroke-dasharray: 1600;
+      animation: diecut-draw 11s ease-in-out infinite;
+      filter: drop-shadow(0 0 6px rgba(212,175,55,.65));
+    }
+
+    /* finished box folds up + floats + clears */
+    @keyframes box-assemble {
+      0%,22%  { opacity:0; transform: translateY(46px) scale(.55); }
+      35%     { opacity:1; transform: translateY(0) scale(1); }
+      76%     { opacity:1; transform: translateY(-7px) scale(1); }
+      87%     { opacity:0; transform: translateY(-22px) scale(1.03); }
+      100%    { opacity:0; }
+    }
+    .iso-box   { transform-box: fill-box; transform-origin:center; animation: box-assemble 11s ease-in-out infinite; }
+
+    /* second box stacks behind */
+    @keyframes box-stack {
+      0%,45%  { opacity:0; transform: translateY(34px) scale(.6); }
+      57%     { opacity:.8; transform: translateY(0) scale(1); }
+      78%     { opacity:.8; }
+      87%     { opacity:0; }
+      100%    { opacity:0; }
+    }
+    .iso-stack { transform-box: fill-box; transform-origin:center; animation: box-stack 11s ease-in-out infinite; }
+
+    /* tracing scan light */
+    @keyframes scan {
+      0%   { transform: translateX(-120px); opacity:0; }
+      12%  { opacity:.55; }
+      88%  { opacity:.55; }
+      100% { transform: translateX(720px); opacity:0; }
+    }
+    .scan-line { animation: scan 6.5s ease-in-out infinite; }
+
+    /* rotating press rollers */
+    @keyframes roll { to { transform: rotate(360deg); } }
+    .roller { transform-box: fill-box; transform-origin:center; animation: roll 3.4s linear infinite; }
+    .roller-2 { animation-duration: 2.6s; }
+
+    /* printed sheets across the press line */
+    @keyframes press-sheet {
+      0%   { transform: translateX(-180px); opacity:0; }
+      8%   { opacity:1; }
+      92%  { opacity:1; }
+      100% { transform: translateX(860px); opacity:0; }
+    }
+    .press-sheet   { animation: press-sheet 7s linear infinite; }
+    .press-sheet-2 { animation-delay: 2.3s; }
+    .press-sheet-3 { animation-delay: 4.6s; }
+
+    /* ── Gold hover line on industry cards ── */
+    .gold-bar { width: 28px; height: 1px; background: #D4AF37; transition: width 0.5s ease; }
+    .group:hover .gold-bar { width: 100%; }
+
+    /* ── Timeline connector (desktop) ── */
+    .timeline-track {
+      position: absolute;
+      top: 22px; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(212,175,55,0.3) 20%, rgba(212,175,55,0.7) 50%, rgba(212,175,55,0.3) 80%, transparent);
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Suppress benign Framer Motion list-key warnings -->
+  <script>
+    const _origErr = console.error;
+    console.error = (...a) => {
+      if (typeof a[0] === 'string' && a[0].includes('Each child in a list')) return;
+      _origErr.apply(console, a);
+    };
+  </script>
+
+  <!-- ============================================================
+       SHARED UTILITY HOOK + ICONS
+  ============================================================ -->
+  <script type="text/babel">
+    /* IntersectionObserver-based visibility hook (reliable across all envs) */
+    window.useVisible = function useVisible(threshold = 0.1) {
+      const ref = React.useRef(null);
+      const [vis, setVis] = React.useState(false);
+      React.useEffect(() => {
+        const el = ref.current;
+        if (!el) return;
+        // Reveal immediately if already in view on mount.
+        const r = el.getBoundingClientRect();
+        if (r.top < window.innerHeight && r.bottom > 0) { setVis(true); return; }
+        const obs = new IntersectionObserver(
+          ([e]) => { if (e.isIntersecting) setVis(true); },
+          { threshold }
+        );
+        obs.observe(el);
+        // Safety net: never let content stay hidden if the observer misses.
+        const t = setTimeout(() => setVis(true), 2500);
+        return () => { obs.disconnect(); clearTimeout(t); };
+      }, []);
+      return [ref, vis];
+    };
+
+    /* Shared fade-up animation factory */
+    window.fadeUp = (delay = 0) => ({
+      initial: { filter: 'blur(10px)', opacity: 0, y: 20 },
+      animate: { filter: 'blur(0px)', opacity: 1, y: 0 },
+      transition: { delay, duration: 0.75, ease: 'easeOut' },
+    });
+
+    /* ── Icon SVGs ── */
+    window.IconArrowUpRight = ({ cls = 'h-4 w-4' }) => (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M7 17L17 7"/><path d="M7 7h10v10"/>
+      </svg>
+    );
+
+    window.IconPlay = ({ cls = 'h-4 w-4' }) => (
+      <svg className={cls} viewBox="0 0 24 24" fill="currentColor">
+        <polygon points="6 4 20 12 6 20 6 4"/>
+      </svg>
+    );
+
+    window.IconWA = ({ cls = 'h-5 w-5' }) => (
+      <svg className={cls} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+      </svg>
+    );
+
+    window.IconStar = ({ cls = 'h-3.5 w-3.5' }) => (
+      <svg className={cls} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2Z"/>
+      </svg>
+    );
+  </script>
+
+  <!-- ============================================================
+       FADING VIDEO (custom rAF crossfade, no CSS transitions)
+  ============================================================ -->
+  <script type="text/babel">
+    window.FadingVideo = function FadingVideo({ src, className, style }) {
+      const videoRef = React.useRef(null);
+      const rafRef   = React.useRef(null);
+      const fadingOut = React.useRef(false);
+      const FADE_MS      = 500;
+      const FADE_OUT_LEAD = 0.55;
+
+      const fadeTo = React.useCallback((target) => {
+        const video = videoRef.current;
+        if (!video) return;
+        if (rafRef.current) cancelAnimationFrame(rafRef.current);
+        const t0    = performance.now();
+        const start = parseFloat(video.style.opacity) || 0;
+        const tick  = (now) => {
+          const p = Math.min((now - t0) / FADE_MS, 1);
+          const e = 1 - (1 - p) * (1 - p); // easeOutQuad
+          video.style.opacity = start + (target - start) * e;
+          if (p < 1) rafRef.current = requestAnimationFrame(tick);
+          else video.style.opacity = target;
+        };
+        rafRef.current = requestAnimationFrame(tick);
+      }, []);
+
+      React.useEffect(() => {
+        const v = videoRef.current;
+        if (!v) return;
+        v.style.opacity = '0';
+
+        const onLoaded = () => {
+          v.style.opacity = '0';
+          v.play().catch(() => {});
+          fadeTo(1);
+        };
+        const onTime = () => {
+          if (!fadingOut.current && v.duration > 0) {
+            const rem = v.duration - v.currentTime;
+            if (rem <= FADE_OUT_LEAD && rem > 0) {
+              fadingOut.current = true;
+              fadeTo(0);
+            }
+          }
+        };
+        const onEnded = () => {
+          v.style.opacity = '0';
+          setTimeout(() => {
+            v.currentTime = 0;
+            v.play().catch(() => {});
+            fadingOut.current = false;
+            fadeTo(1);
+          }, 100);
+        };
+
+        v.addEventListener('loadeddata', onLoaded);
+        v.addEventListener('timeupdate', onTime);
+        v.addEventListener('ended', onEnded);
+        if (v.readyState >= 2) onLoaded();
+
+        return () => {
+          if (rafRef.current) cancelAnimationFrame(rafRef.current);
+          v.removeEventListener('loadeddata', onLoaded);
+          v.removeEventListener('timeupdate', onTime);
+          v.removeEventListener('ended', onEnded);
+        };
+      }, [fadeTo]);
+
+      return (
+        <video
+          ref={videoRef}
+          src={src}
+          autoPlay muted playsInline preload="auto"
+          className={className}
+          style={{ opacity: 0, ...style }}
+        />
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       PACKAGING FACTORY ANIMATIONS (CSS/SVG — replace hero/section videos)
+  ============================================================ -->
+  <script type="text/babel">
+    /* Hero: kraft sheets feed a press, a die-cut net traces, then a
+       carton folds up and a second box stacks behind it — looping. */
+    window.BoxFactory = function BoxFactory({ className, style }) {
+      return (
+        <div className={'factory ' + (className || '')} style={style} aria-hidden="true">
+          <svg viewBox="0 0 700 600" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="kraftTop" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stopColor="#C8A97E" stopOpacity="0.55"/>
+                <stop offset="1" stopColor="#C8A97E" stopOpacity="0.25"/>
+              </linearGradient>
+              <linearGradient id="kraftLeft" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stopColor="#9c8460" stopOpacity="0.5"/>
+                <stop offset="1" stopColor="#6f5e44" stopOpacity="0.32"/>
+              </linearGradient>
+              <linearGradient id="kraftRight" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stopColor="#7d6a4d" stopOpacity="0.45"/>
+                <stop offset="1" stopColor="#52442f" stopOpacity="0.28"/>
+              </linearGradient>
+              <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stopColor="#D4AF37" stopOpacity="0"/>
+                <stop offset="0.5" stopColor="#D4AF37" stopOpacity="0.85"/>
+                <stop offset="1" stopColor="#D4AF37" stopOpacity="0"/>
+              </linearGradient>
+            </defs>
+
+            {/* faint factory-floor grid */}
+            <g stroke="rgba(212,175,55,0.06)" strokeWidth="1">
+              <line x1="0" y1="430" x2="700" y2="430"/>
+              <line x1="0" y1="480" x2="700" y2="480"/>
+              <line x1="0" y1="530" x2="700" y2="530"/>
+            </g>
+
+            {/* background kraft sheets sliding through */}
+            <g fill="#C8A97E" opacity="0.5">
+              <rect className="sheet"   x="60"  y="120" width="150" height="100" rx="6"/>
+              <rect className="sheet sheet-2" x="40"  y="360" width="170" height="110" rx="6"/>
+              <rect className="sheet sheet-3" x="80"  y="250" width="130" height="90"  rx="6"/>
+            </g>
+
+            {/* tracing scan light */}
+            <rect className="scan-line" x="200" y="120" width="90" height="360" fill="url(#scanGrad)" opacity="0.5"/>
+
+            {/* die-cut net (cross dieline) tracing in */}
+            <g className="diecut" fill="none" stroke="#D4AF37" strokeWidth="2.2"
+               strokeLinejoin="round" transform="translate(350 300)">
+              <path d="M-55 -120 h110 v65 h65 v110 h-65 v65 h-110 v-65 h-65 v-110 h65 z"/>
+              <path strokeDasharray="6 7" strokeOpacity="0.6"
+                    d="M-55 -55 h110 M-55 55 h110 M-55 -55 v110 M55 -55 v110"/>
+            </g>
+
+            {/* second box stacking behind */}
+            <g className="iso-stack" transform="translate(420 330)">
+              <polygon points="0,-44 70,-2 0,40 -70,-2" fill="url(#kraftTop)" stroke="#D4AF37" strokeWidth="1.5" strokeOpacity="0.5"/>
+              <polygon points="-70,-2 0,40 0,118 -70,76" fill="url(#kraftLeft)" stroke="#D4AF37" strokeWidth="1.5" strokeOpacity="0.4"/>
+              <polygon points="0,40 70,-2 70,76 0,118" fill="url(#kraftRight)" stroke="#D4AF37" strokeWidth="1.5" strokeOpacity="0.4"/>
+            </g>
+
+            {/* finished carton folding up + floating */}
+            <g className="iso-box" transform="translate(300 290)">
+              <polygon points="0,-58 92,-4 0,52 -92,-4" fill="url(#kraftTop)" stroke="#D4AF37" strokeWidth="2" strokeOpacity="0.65"/>
+              <polygon points="-92,-4 0,52 0,156 -92,100" fill="url(#kraftLeft)" stroke="#D4AF37" strokeWidth="2" strokeOpacity="0.5"/>
+              <polygon points="0,52 92,-4 92,100 0,156" fill="url(#kraftRight)" stroke="#D4AF37" strokeWidth="2" strokeOpacity="0.5"/>
+              {/* lid seam highlight */}
+              <polyline points="-92,-4 0,52 92,-4" fill="none" stroke="#D4AF37" strokeWidth="1" strokeOpacity="0.35"/>
+            </g>
+          </svg>
+        </div>
+      );
+    };
+
+    /* Manufacturing section: an offset printing line — rollers spin and
+       freshly-printed sheets travel across the press. */
+    window.PressLine = function PressLine({ className, style }) {
+      const rollers = [120, 250, 380, 510, 640];
+      return (
+        <div className={'factory ' + (className || '')} style={style} aria-hidden="true">
+          <svg viewBox="0 0 760 600" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="printSheet" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stopColor="#C8A97E" stopOpacity="0.5"/>
+                <stop offset="1" stopColor="#C8A97E" stopOpacity="0.3"/>
+              </linearGradient>
+            </defs>
+
+            {/* conveyor rails */}
+            <line x1="0" y1="300" x2="760" y2="300" stroke="rgba(212,175,55,0.18)" strokeWidth="2"/>
+            <line x1="0" y1="372" x2="760" y2="372" stroke="rgba(212,175,55,0.18)" strokeWidth="2"/>
+
+            {/* spinning rollers */}
+            <g>
+              {rollers.map((cx, i) => (
+                <g key={i} className={'roller ' + (i % 2 ? 'roller-2' : '')} transform={'translate(' + cx + ' 336)'}>
+                  <circle r="26" fill="none" stroke="rgba(212,175,55,0.35)" strokeWidth="3"/>
+                  <line x1="-26" y1="0" x2="26" y2="0" stroke="rgba(212,175,55,0.5)" strokeWidth="2"/>
+                  <line x1="0" y1="-26" x2="0" y2="26" stroke="rgba(212,175,55,0.5)" strokeWidth="2"/>
+                </g>
+              ))}
+            </g>
+
+            {/* printed sheets travelling across the press (CMYK ink bars) */}
+            {[0,1,2].map((n) => (
+              <g key={n} className={'press-sheet press-sheet-' + (n+1)} transform="translate(0 250)">
+                <rect x="0" y="0" width="150" height="78" rx="5" fill="url(#printSheet)" stroke="#D4AF37" strokeWidth="1.2" strokeOpacity="0.5"/>
+                <rect x="14" y="14" width="28" height="50" rx="2" fill="#22d3ee" opacity="0.4"/>
+                <rect x="50" y="14" width="28" height="50" rx="2" fill="#f472b6" opacity="0.4"/>
+                <rect x="86" y="14" width="28" height="50" rx="2" fill="#D4AF37" opacity="0.45"/>
+                <rect x="122" y="14" width="14" height="50" rx="2" fill="#ffffff" opacity="0.18"/>
+              </g>
+            ))}
+          </svg>
+        </div>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       BLUR TEXT (word-by-word, IntersectionObserver triggered)
+  ============================================================ -->
+  <script type="text/babel">
+    window.BlurText = function BlurText({ text, className }) {
+      const words = text.split(' ');
+      return (
+        <p className={className}
+          style={{ display:'flex', flexWrap:'wrap', justifyContent:'center', rowGap:'0.1em' }}>
+          {words.map((w, i) => (
+            <span key={i} className="blur-word"
+              style={{ marginRight:'0.28em', animationDelay:(i*0.09)+'s' }}
+            >{w}</span>
+          ))}
+        </p>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <script type="text/babel">
+    window.Navbar = function Navbar() {
+      const { motion } = window.Motion;
+      const [open, setOpen] = React.useState(false);
+      const links = [
+        ['Home','#home'],['Products','#products'],['Industries','#industries'],
+        ['Manufacturing','#manufacturing'],['Sustainability','#sustainability'],['Contact','#contact'],
+      ];
+      return (
+        <nav className="fixed top-4 left-0 right-0 z-50 px-6 lg:px-16">
+          <div className="flex items-center justify-between max-w-7xl mx-auto">
+            {/* Logo pill */}
+            <a href="#home" className="liquid-glass w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+              <span className="font-heading italic text-white text-xl leading-none select-none">R</span>
+            </a>
+
+            {/* Desktop center nav */}
+            <div className="hidden lg:flex liquid-glass rounded-full px-1.5 py-1.5 items-center gap-0.5">
+              {links.map(([label, href]) => (
+                <a key={label} href={href}
+                  className="px-3 py-2 text-sm font-medium text-white/80 font-body hover:text-white transition-colors whitespace-nowrap rounded-full">
+                  {label}
+                </a>
+              ))}
+              <a href="#contact"
+                className="bg-gold text-black px-4 py-2 rounded-full text-sm font-semibold font-body whitespace-nowrap ml-1 hover:brightness-110 transition-all flex items-center gap-1.5">
+                Get Quote <IconArrowUpRight cls="h-3.5 w-3.5" />
+              </a>
+            </div>
+
+            {/* Mobile hamburger */}
+            <button onClick={() => setOpen(!open)}
+              className="lg:hidden liquid-glass w-12 h-12 rounded-full flex items-center justify-center text-white">
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2">
+                {open
+                  ? <><path d="M6 18L18 6"/><path d="M6 6l12 12"/></>
+                  : <><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h18"/></>}
+              </svg>
+            </button>
+          </div>
+
+          {/* Mobile dropdown */}
+          {open && (
+            <motion.div
+              initial={{ opacity:0, y:-8, scale:0.97 }}
+              animate={{ opacity:1, y:0, scale:1 }}
+              transition={{ duration:0.2 }}
+              className="lg:hidden liquid-glass-strong rounded-2xl mt-2 mx-2 p-4">
+              {links.map(([label, href]) => (
+                <a key={label} href={href} onClick={() => setOpen(false)}
+                  className="block px-4 py-3 text-white/80 font-body text-sm hover:text-white border-b border-white/5 last:border-0 transition-colors">
+                  {label}
+                </a>
+              ))}
+              <a href="#contact" onClick={() => setOpen(false)}
+                className="mt-3 block bg-gold text-black text-center py-2.5 rounded-full text-sm font-semibold font-body hover:brightness-110 transition-all">
+                Get Quote
+              </a>
+            </motion.div>
+          )}
+        </nav>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <script type="text/babel">
+    window.HeroSection = function HeroSection() {
+      const { motion } = window.Motion;
+      const fu = fadeUp;
+      return (
+        <section id="home" className="relative min-h-screen bg-black flex flex-col overflow-hidden">
+          {/* Background — live packaging factory animation */}
+          <BoxFactory className="absolute inset-0 z-0" />
+          {/* Gradient vignette — keeps headline readable over the animation */}
+          <div className="absolute inset-0 z-[1] pointer-events-none"
+            style={{ background:'linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, transparent 35%, transparent 55%, rgba(0,0,0,0.55) 100%)' }} />
+
+          {/* Content */}
+          <div className="relative z-10 flex flex-col min-h-screen">
+            <div className="h-20 flex-shrink-0" />
+
+            {/* Hero body */}
+            <div className="flex-1 flex flex-col items-center justify-center px-4 text-center pt-4">
+
+              {/* Badge */}
+              <motion.div {...fu(0.4)} className="liquid-glass rounded-full px-1.5 py-1.5 flex items-center gap-2 mb-8">
+                <span className="bg-gold text-black px-3 py-1 rounded-full text-xs font-semibold font-body">New</span>
+                <span className="text-sm text-white/85 font-body pr-3">Premium Paper Box Manufacturing — Serving Pan-India</span>
+              </motion.div>
+
+              {/* Headline */}
+              <BlurText
+                text="Packaging That Builds Brands"
+                className="text-5xl md:text-7xl lg:text-[5.5rem] font-heading italic text-white leading-[0.88] max-w-3xl tracking-[-3px]"
+              />
+
+              {/* Subheading */}
+              <motion.p {...fu(0.8)}
+                className="mt-6 text-sm md:text-base text-white/70 max-w-2xl font-body font-light leading-relaxed">
+                From custom printed cartons to premium retail packaging, R.S. Enterprises delivers quality, consistency, and innovation for businesses across India.
+              </motion.p>
+
+              {/* CTAs */}
+              <motion.div {...fu(1.05)} className="flex items-center gap-6 mt-8 flex-wrap justify-center">
+                <a href="#contact"
+                  className="liquid-glass-strong rounded-full px-6 py-3 text-sm font-medium text-white font-body flex items-center gap-2 hover:bg-white/10 transition-colors">
+                  Request a Quote <IconArrowUpRight cls="h-4 w-4" />
+                </a>
+                <a href="#products"
+                  className="text-white/70 hover:text-white font-body text-sm font-medium flex items-center gap-2 transition-colors">
+                  <IconPlay cls="h-4 w-4 text-gold" /> View Products
+                </a>
+              </motion.div>
+
+            </div>
+
+            {/* Partners strip */}
+            <motion.div {...fu(1.45)}
+              className="flex flex-col items-center gap-4 pb-10 pt-8 px-4">
+              <div className="liquid-glass rounded-full px-3.5 py-1 text-xs font-medium text-white/70 font-body">
+                Trusted by growing brands across India
+              </div>
+              <div className="flex items-center gap-10 md:gap-16 flex-wrap justify-center">
+                {['FMCG','Pharma','Cosmetics','Apparel','Retail'].map((n) => (
+                  <span key={n}
+                    className="font-heading italic text-white/50 hover:text-white/90 text-xl md:text-2xl tracking-tight transition-colors cursor-default select-none">
+                    {n}
+                  </span>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+        </section>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       MANUFACTURING EXCELLENCE (Section 2 — video background)
+  ============================================================ -->
+  <script type="text/babel">
+    window.ManufacturingSection = function ManufacturingSection() {
+      const { motion } = window.Motion;
+      const [ref, vis] = useVisible(0.05);
+
+      const cards = [
+        {
+          tags: ['Mono Cartons','Retail Packaging','Premium Finish','Brand Ready'],
+          title: 'Custom Paper Boxes',
+          desc: 'Custom-designed paper packaging solutions tailored to your product dimensions, branding, and premium finishing requirements.',
+          Icon: () => (
+            <svg viewBox="0 0 24 24" className="h-5 w-5 text-gold" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M21 8l-9-4-9 4v8l9 4 9-4V8Z"/>
+              <path d="M12 4v16"/><path d="M3 8l9 4 9-4"/>
+            </svg>
+          ),
+        },
+        {
+          tags: ['High Capacity','Fast Turnaround','Bulk Orders','Reliable Output'],
+          title: 'Large Scale Manufacturing',
+          desc: 'Advanced machinery and streamlined production processes ensure consistency and quality at every scale — from trial runs to mass production.',
+          Icon: () => (
+            <svg viewBox="0 0 24 24" className="h-5 w-5 text-gold" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4Z"/>
+            </svg>
+          ),
+        },
+        {
+          tags: ['Eco Friendly','Recyclable','Responsible','Future Ready'],
+          title: 'Sustainable Packaging',
+          desc: "Environmentally conscious packaging using recycled duplex board, water-based inks, and responsible manufacturing to reduce your brand's footprint.",
+          Icon: () => (
+            <svg viewBox="0 0 24 24" className="h-5 w-5 text-gold" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+              <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+            </svg>
+          ),
+        },
+      ];
+
+      return (
+        <section id="manufacturing" className="relative min-h-screen bg-black overflow-hidden">
+          <PressLine className="absolute inset-0 w-full h-full z-0" />
+          <div className="absolute inset-0 z-[1] bg-black/45 pointer-events-none" />
+
+          <div ref={ref} className="relative z-10 px-8 md:px-16 lg:px-20 pt-28 pb-16 flex flex-col min-h-screen">
+            {/* Header */}
+            <div className="mb-auto">
+              <motion.p
+                initial={{ opacity:0 }} animate={vis ? { opacity:1 } : {}} transition={{ duration:0.6 }}
+                className="text-sm font-body text-white/55 mb-5 tracking-widest uppercase">
+                // Manufacturing Excellence
+              </motion.p>
+              <BlurText
+                text="Production Reimagined"
+                className="font-heading italic text-white text-5xl md:text-7xl lg:text-[6rem] leading-[0.88] tracking-[-3px] max-w-2xl"
+              />
+            </div>
+
+            {/* Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-14">
+              {cards.map(({ tags, title, desc, Icon }, i) => (
+                <motion.div key={i}
+                  initial={{ opacity:0, y:40 }}
+                  animate={vis ? { opacity:1, y:0 } : {}}
+                  transition={{ delay:0.25+i*0.15, duration:0.7, ease:'easeOut' }}
+                  className="liquid-glass rounded-[1.25rem] p-6 min-h-[340px] flex flex-col hover:bg-white/[0.03] transition-colors">
+                  {/* Top row */}
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="liquid-glass w-11 h-11 rounded-[0.75rem] flex items-center justify-center flex-shrink-0">
+                      <Icon />
+                    </div>
+                    <div className="flex flex-wrap justify-end gap-1.5 max-w-[68%]">
+                      {tags.map((t) => (
+                        <span key={t} className="liquid-glass rounded-full px-2.5 py-1 text-[10px] text-white/75 font-body whitespace-nowrap">
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="flex-1" />
+                  {/* Bottom */}
+                  <div className="mt-5">
+                    <h3 className="font-heading italic text-white text-3xl md:text-[2.1rem] tracking-[-1px] leading-none">{title}</h3>
+                    <p className="mt-3 text-sm text-white/60 font-body font-light leading-snug max-w-[32ch]">{desc}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       INDUSTRIES SECTION
+  ============================================================ -->
+  <script type="text/babel">
+    window.IndustriesSection = function IndustriesSection() {
+      const { motion } = window.Motion;
+      const [ref, vis] = useVisible(0.08);
+
+      const industries = [
+        { emoji:'🛒', name:'FMCG',            desc:'High-volume retail packaging for consumer goods brands requiring consistent colour and structural integrity.' },
+        { emoji:'💊', name:'Pharmaceuticals', desc:'Precision mono cartons with tamper-evident closures meeting regulatory compliance standards.' },
+        { emoji:'✨', name:'Cosmetics',        desc:'Premium luxury packaging with embossing and soft-touch laminates for beauty brands.' },
+        { emoji:'👗', name:'Apparel',          desc:'Brand-forward retail boxes and hang-tag solutions for fashion brands.' },
+        { emoji:'🍃', name:'Food & Beverage', desc:'Food-safe printed cartons and sustainable packaging with grease-resistant barrier coatings.' },
+      ];
+
+      return (
+        <section id="industries" className="py-24 px-8 md:px-16 lg:px-20 bg-[#050505]">
+          <div className="max-w-7xl mx-auto" ref={ref}>
+            <motion.div
+              initial={{ opacity:0, y:28 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ duration:0.7 }}
+              className="mb-14">
+              <p className="text-xs font-body text-white/45 mb-3 tracking-[0.2em] uppercase">// Industries</p>
+              <h2 className="font-heading italic text-white text-5xl md:text-6xl tracking-[-2px] leading-[0.9]">Industries We Serve</h2>
+              <p className="mt-4 text-white/50 font-body font-light text-sm md:text-base max-w-lg">
+                Specialised packaging solutions crafted for the unique demands of each sector.
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {industries.map(({ emoji, name, desc }, i) => (
+                <motion.div key={i}
+                  initial={{ opacity:0, y:28 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ delay:i*0.07, duration:0.55 }}
+                  className="liquid-glass rounded-2xl p-6 group hover:bg-white/[0.04] transition-all cursor-default">
+                  <div className="text-2xl mb-4">{emoji}</div>
+                  <h3 className="font-heading italic text-white text-xl mb-2">{name}</h3>
+                  <p className="text-xs text-white/45 font-body font-light leading-relaxed">{desc}</p>
+                  <div className="gold-bar mt-5" />
+                </motion.div>
+              ))}
+
+              {/* CTA card */}
+              <motion.a href="#contact"
+                initial={{ opacity:0, y:28 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ delay:industries.length*0.07, duration:0.55 }}
+                className="liquid-glass-strong rounded-2xl p-6 flex flex-col justify-between cursor-pointer hover:bg-white/[0.06] transition-all">
+                <span className="text-gold text-xs font-body font-semibold tracking-widest uppercase">Your industry?</span>
+                <div>
+                  <h3 className="font-heading italic text-white text-2xl mt-4 mb-2">Let's Talk</h3>
+                  <div className="flex items-center gap-2 text-white/55 text-xs font-body">
+                    Get a custom quote <IconArrowUpRight cls="h-3 w-3" />
+                  </div>
+                </div>
+              </motion.a>
+            </div>
+          </div>
+        </section>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       QUICK ENQUIRY CTA STRIP
+  ============================================================ -->
+  <script type="text/babel">
+    window.CTAStrip = function CTAStrip() {
+      const { motion } = window.Motion;
+      const [ref, vis] = useVisible(0.15);
+      return (
+        <section ref={ref} className="py-14 px-8 md:px-16 lg:px-20 bg-[#030303]">
+          <motion.div
+            initial={{ opacity:0, y:20 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ duration:0.7 }}
+            className="max-w-7xl mx-auto liquid-glass rounded-2xl p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+              <h3 className="font-heading italic text-white text-3xl md:text-4xl tracking-[-1px]">
+                Ready to upgrade your packaging?
+              </h3>
+              <p className="text-white/45 font-body font-light text-sm mt-2">
+                Custom samples available on request.
+              </p>
+            </div>
+            <div className="flex gap-4 flex-wrap">
+              <a href="#contact"
+                className="bg-gold text-black font-body font-semibold px-6 py-3 rounded-full text-sm hover:brightness-110 transition-all whitespace-nowrap">
+                Request a Quote
+              </a>
+            </div>
+          </motion.div>
+        </section>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       PRODUCT SHOWCASE
+  ============================================================ -->
+  <script type="text/babel">
+    window.ProductShowcase = function ProductShowcase() {
+      const { motion } = window.Motion;
+      const [ref, vis] = useVisible(0.08);
+
+      const products = [
+        { tag:'Best Seller', name:'Mono Cartons',           desc:'Crisp, brand-forward cartons for retail and pharmaceutical packaging with gloss/matte lamination and spot coating.' },
+        { tag:'Custom',       name:'Folding Cartons',       desc:'Precision die-cut folding cartons for FMCG, cosmetics, and food packaging with auto-bottom and tuck-top closures.' },
+        { tag:'Premium',      name:'Luxury Packaging',      desc:'Rigid boxes with embossing and specialty finishes for high-end consumer and gifting brands.' },
+        { tag:'Brand Ready',  name:'Printed Product Boxes', desc:'Offset-printed product boxes with lamination and die-cut windows to showcase your product.' },
+        { tag:'POP Ready',    name:'Display Packaging',     desc:'Eye-catching point-of-purchase display packaging to maximise shelf presence in modern retail environments.' },
+      ];
+
+      return (
+        <section id="products" className="py-24 px-8 md:px-16 lg:px-20 bg-[#060606]">
+          <div className="max-w-7xl mx-auto" ref={ref}>
+            <motion.div
+              initial={{ opacity:0, y:28 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ duration:0.7 }}
+              className="mb-14 flex flex-col md:flex-row md:items-end justify-between gap-6">
+              <div>
+                <p className="text-xs font-body text-white/45 mb-3 tracking-[0.2em] uppercase">// Products</p>
+                <h2 className="font-heading italic text-white text-5xl md:text-6xl tracking-[-2px] leading-[0.9]">Our Product Range</h2>
+              </div>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {products.map(({ tag, name, desc }, i) => (
+                <motion.div key={i}
+                  initial={{ opacity:0, y:28 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ delay:i*0.09, duration:0.6 }}
+                  className="liquid-glass rounded-2xl p-6 group hover:bg-white/[0.04] transition-all cursor-default">
+                  <span className="text-[10px] font-body font-semibold text-gold tracking-[0.18em] uppercase">{tag}</span>
+                  <h3 className="font-heading italic text-white text-2xl mt-2 mb-3 tracking-tight">{name}</h3>
+                  <p className="text-xs text-white/50 font-body font-light leading-relaxed">{desc}</p>
+                  <div className="mt-6 flex items-center gap-1.5 text-white/35 group-hover:text-white/65 transition-colors">
+                    <span className="text-xs font-body">Enquire now</span>
+                    <IconArrowUpRight cls="h-3 w-3" />
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       MANUFACTURING PROCESS TIMELINE
+  ============================================================ -->
+  <script type="text/babel">
+    window.ProcessTimeline = function ProcessTimeline() {
+      const { motion } = window.Motion;
+      const [ref, vis] = useVisible(0.05);
+
+      const steps = [
+        { num:'01', title:'Design Consultation',     desc:'We analyse your product, brand identity, and packaging goals.' },
+        { num:'02', title:'Packaging Development',   desc:'Structural design, material selection, and dieline creation.' },
+        { num:'03', title:'Offset Printing',         desc:'High-precision CMYK printing on premium substrates.' },
+        { num:'04', title:'Lamination & Coating',    desc:'Gloss, matte, and protective coatings applied to the printed sheets.' },
+        { num:'05', title:'Die Cutting',             desc:'Precision die-cutting for perfect structural dimensions.' },
+        { num:'06', title:'Assembly & Finishing',    desc:'Embossing, gluing, and final assembly.' },
+        { num:'07', title:'Inspection & Delivery',   desc:'100% quality inspection, then dispatched on schedule.' },
+      ];
+
+      return (
+        <section className="py-24 px-8 md:px-16 lg:px-20 bg-[#050505]" ref={ref}>
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+              initial={{ opacity:0, y:28 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ duration:0.7 }}
+              className="mb-16 text-center">
+              <p className="text-xs font-body text-white/45 mb-3 tracking-[0.2em] uppercase">// Process</p>
+              <h2 className="font-heading italic text-white text-5xl md:text-6xl tracking-[-2px] leading-[0.9]">From Concept to Delivery</h2>
+              <p className="mt-4 text-white/45 font-body font-light text-sm max-w-md mx-auto">
+                A transparent 7-step process that guarantees quality and consistency every time.
+              </p>
+            </motion.div>
+
+            {/* Desktop horizontal */}
+            <div className="hidden md:block relative pt-10">
+              <div className="timeline-track" />
+              <div className="grid grid-cols-7 gap-2">
+                {steps.map(({ num, title, desc }, i) => (
+                  <motion.div key={i}
+                    initial={{ opacity:0, y:20 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ delay:0.1+i*0.09, duration:0.5 }}
+                    className="flex flex-col items-center text-center">
+                    {/* Node */}
+                    <div className="liquid-glass w-11 h-11 rounded-full flex items-center justify-center -mt-5 mb-4">
+                      <div className="w-2 h-2 rounded-full bg-gold" />
+                    </div>
+                    <span className="text-[9px] font-body text-gold/65 tracking-[0.18em] uppercase">{num}</span>
+                    <h4 className="font-heading italic text-white text-sm mt-1 leading-tight">{title}</h4>
+                    <p className="text-[10px] text-white/38 font-body font-light mt-2 leading-relaxed">{desc}</p>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+
+            {/* Mobile vertical */}
+            <div className="md:hidden space-y-3">
+              {steps.map(({ num, title, desc }, i) => (
+                <motion.div key={i}
+                  initial={{ opacity:0, x:-20 }} animate={vis ? { opacity:1, x:0 } : {}} transition={{ delay:0.08+i*0.07, duration:0.5 }}
+                  className="liquid-glass rounded-2xl p-5 flex gap-4 items-start">
+                  <span className="font-heading italic text-gold text-2xl leading-none w-9 flex-shrink-0">{num}</span>
+                  <div>
+                    <h4 className="font-heading italic text-white text-lg leading-tight">{title}</h4>
+                    <p className="text-xs text-white/45 font-body font-light mt-1 leading-relaxed">{desc}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       SUSTAINABILITY SECTION
+  ============================================================ -->
+  <script type="text/babel">
+    window.SustainabilitySection = function SustainabilitySection() {
+      const { motion } = window.Motion;
+      const [ref, vis] = useVisible(0.08);
+
+      const pillars = [
+        { emoji:'♻️', title:'Recycled Materials',   desc:'Recycled duplex board and kraft paper, diverting waste from landfills while maintaining premium quality.' },
+        { emoji:'💧', title:'Water-Based Inks',     desc:'Low-VOC, water-based offset inks safer for people and the planet without compromising colour vibrancy.' },
+        { emoji:'⚡', title:'Efficient Production', desc:'Optimised press runs reduce waste board, energy consumption, and makeready materials per job.' },
+        { emoji:'🌿', title:'Responsible Sourcing', desc:'Board and paper sourced from certified suppliers with responsible forestry and ethical manufacturing.' },
+      ];
+
+      return (
+        <section id="sustainability" className="py-24 px-8 md:px-16 lg:px-20 bg-[#060606]">
+          <div className="max-w-7xl mx-auto" ref={ref}>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <motion.div
+                initial={{ opacity:0, x:-30 }} animate={vis ? { opacity:1, x:0 } : {}} transition={{ duration:0.8 }}>
+                <p className="text-xs font-body text-white/45 mb-3 tracking-[0.2em] uppercase">// Sustainability</p>
+                <h2 className="font-heading italic text-white text-5xl md:text-6xl tracking-[-2px] leading-[0.9] mb-6">
+                  Packaging for a Sustainable Future
+                </h2>
+                <p className="text-white/55 font-body font-light text-sm md:text-base leading-relaxed mb-8">
+                  Sustainability isn't an add-on at R.S. Enterprises — it's built into every material choice, every press run, and every delivery. Great packaging and environmental responsibility go hand in hand.
+                </p>
+                <a href="#contact"
+                  className="liquid-glass-strong rounded-full px-6 py-3 text-sm font-medium text-white font-body flex items-center gap-2 w-fit hover:bg-white/[0.08] transition-colors">
+                  Discuss Eco Packaging <IconArrowUpRight cls="h-4 w-4" />
+                </a>
+              </motion.div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {pillars.map(({ emoji, title, desc }, i) => (
+                  <motion.div key={i}
+                    initial={{ opacity:0, y:28 }} animate={vis ? { opacity:1, y:0 } : {}} transition={{ delay:0.2+i*0.12, duration:0.6 }}
+                    className="liquid-glass rounded-2xl p-6">
+                    <div className="text-2xl mb-3">{emoji}</div>
+                    <h3 className="font-heading italic text-white text-lg mb-2">{title}</h3>
+                    <p className="text-xs text-white/45 font-body font-light leading-relaxed">{desc}</p>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <script type="text/babel">
+    window.ContactSection = function ContactSection() {
+      const { motion } = window.Motion;
+      const [ref, vis] = useVisible(0.05);
+      const [status, setStatus] = React.useState('idle'); // idle | sending | ok | err
+
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        setStatus('sending');
+        try {
+          const res = await fetch('https://formspree.io/f/mqeogyyg', {
+            method: 'POST',
+            body: new FormData(e.target),
+            headers: { Accept: 'application/json' },
+          });
+          if (res.ok) { setStatus('ok'); e.target.reset(); }
+          else setStatus('err');
+        } catch { setStatus('err'); }
+      };
+
+      return (
+        <section id="contact" className="py-24 px-8 md:px-16 lg:px-20 bg-[#060606]">
+          <div className="max-w-7xl mx-auto" ref={ref}>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+
+              {/* Left info */}
+              <motion.div
+                initial={{ opacity:0, x:-28 }} animate={vis ? { opacity:1, x:0 } : {}} transition={{ duration:0.8 }}>
+                <p className="text-xs font-body text-white/45 mb-3 tracking-[0.2em] uppercase">// Contact</p>
+                <h2 className="font-heading italic text-white text-5xl md:text-6xl tracking-[-2px] leading-[0.9] mb-6">
+                  Let's Build Something Together
+                </h2>
+                <p className="text-white/50 font-body font-light text-sm leading-relaxed mb-10">
+                  Tell us about your packaging requirements. Our specialists will craft a tailored solution and respond promptly.
+                </p>
+
+                <div className="space-y-5">
+                  {[
+                    { e:'✉️', label:'Email',    val:'enquiry@rsenterprises.in', href:'mailto:enquiry@rsenterprises.in' },
+                    { e:'📍', label:'Location', val:'Delhi NCR, India',         href:null },
+                  ].map(({ e, label, val, href }) => (
+                    <div key={label} className="flex items-center gap-4">
+                      <div className="liquid-glass w-10 h-10 rounded-full flex items-center justify-center text-base flex-shrink-0">{e}</div>
+                      <div>
+                        <div className="text-[10px] text-white/38 font-body tracking-widest uppercase">{label}</div>
+                        {href
+                          ? <a href={href} className="text-sm text-white/75 font-body hover:text-white transition-colors">{val}</a>
+                          : <div className="text-sm text-white/75 font-body">{val}</div>}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="mt-10 flex gap-2.5 flex-wrap">
+                  {['Pan-India Delivery','Bulk Discounts'].map((b) => (
+                    <span key={b} className="liquid-glass rounded-full px-3 py-1.5 text-[10px] text-white/50 font-body">{b}</span>
+                  ))}
+                </div>
+              </motion.div>
+
+              {/* Right form */}
+              <motion.div
+                initial={{ opacity:0, x:28 }} animate={vis ? { opacity:1, x:0 } : {}} transition={{ delay:0.2, duration:0.8 }}
+                className="liquid-glass rounded-2xl p-8">
+                <h3 className="font-heading italic text-white text-2xl mb-1">Request Quotation</h3>
+                <p className="text-white/40 font-body text-sm mb-7">Fill in your details and we'll be in touch shortly.</p>
+
+                {status === 'ok' && (
+                  <div className="mb-5 p-4 rounded-2xl border border-green-500/20 bg-green-900/20 text-green-400 text-sm font-body">
+                    ✓ Enquiry sent! We'll be in touch shortly.
+                  </div>
+                )}
+                {status === 'err' && (
+                  <div className="mb-5 p-4 rounded-2xl border border-red-500/20 bg-red-900/20 text-red-400 text-sm font-body">
+                    Something went wrong. Email us at{' '}
+                    <a href="mailto:enquiry@rsenterprises.in" className="underline">enquiry@rsenterprises.in</a>
+                  </div>
+                )}
+
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-[10px] text-white/40 font-body mb-1.5 tracking-widest uppercase">Name *</label>
+                      <input type="text" name="name" required className="form-field" placeholder="Your full name" />
+                    </div>
+                    <div>
+                      <label className="block text-[10px] text-white/40 font-body mb-1.5 tracking-widest uppercase">Company</label>
+                      <input type="text" name="company" className="form-field" placeholder="Company name" />
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-[10px] text-white/40 font-body mb-1.5 tracking-widest uppercase">Mobile *</label>
+                      <input type="tel" name="phone" required className="form-field" placeholder="+91 XXXXX XXXXX" />
+                    </div>
+                    <div>
+                      <label className="block text-[10px] text-white/40 font-body mb-1.5 tracking-widest uppercase">Email *</label>
+                      <input type="email" name="email" required className="form-field" placeholder="you@company.com" />
+                    </div>
+                  </div>
+                  <div>
+                    <label className="block text-[10px] text-white/40 font-body mb-1.5 tracking-widest uppercase">Message *</label>
+                    <textarea name="message" required className="form-field" placeholder="Tell us about your requirements, dimensions, timeline…" />
+                  </div>
+                  <button type="submit" disabled={status === 'sending'}
+                    className="w-full bg-gold text-black font-body font-semibold py-3 rounded-full text-sm hover:brightness-110 transition-all disabled:opacity-50 disabled:cursor-not-allowed mt-1">
+                    {status === 'sending' ? 'Sending…' : 'Request Quotation →'}
+                  </button>
+                  <p className="text-[10px] text-white/28 text-center font-body">
+                    🔒 Your details are kept private and used only to respond to your enquiry.
+                  </p>
+                </form>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <script type="text/babel">
+    window.FooterSection = function FooterSection() {
+      return (
+        <footer className="bg-[#020202] py-16 px-8 md:px-16 lg:px-20">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-14">
+              <div className="md:col-span-2">
+                <div className="font-heading italic text-white text-2xl mb-4">R.S. Enterprises</div>
+                <p className="text-white/35 font-body font-light text-sm leading-relaxed max-w-sm">
+                  Premium paper box manufacturer and packaging solutions company for FMCG, pharmaceutical, cosmetics, and retail brands across India.
+                </p>
+                <div className="flex gap-3 mt-7">
+                  <a href="mailto:enquiry@rsenterprises.in"
+                    className="liquid-glass w-9 h-9 rounded-full flex items-center justify-center text-white/45 hover:text-white transition-colors text-xs">✉</a>
+                </div>
+              </div>
+              <div>
+                <h5 className="text-white font-body font-medium text-xs tracking-widest uppercase mb-5">Quick Links</h5>
+                <ul className="space-y-3">
+                  {[['Home','#home'],['Products','#products'],['Industries','#industries'],['Manufacturing','#manufacturing'],['Sustainability','#sustainability'],['Contact','#contact']].map(([n,h]) => (
+                    <li key={n}><a href={h} className="text-white/35 hover:text-white font-body text-sm transition-colors">{n}</a></li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h5 className="text-white font-body font-medium text-xs tracking-widest uppercase mb-5">Products</h5>
+                <ul className="space-y-3">
+                  {['Mono Cartons','Folding Cartons','Luxury Packaging','Printed Boxes','Display Packaging'].map((n) => (
+                    <li key={n}><span className="text-white/35 font-body text-sm">{n}</span></li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div className="border-t border-white/[0.05] pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+              <p className="text-white/20 font-body text-xs">© 2026 R.S. Enterprises. All rights reserved.</p>
+              <div className="flex items-center gap-5">
+                <a href="privacy.html" className="text-white/35 hover:text-white font-body text-xs transition-colors">Privacy Policy</a>
+                <p className="text-white/20 font-body text-xs">
+                  Paper Box Manufacturer · Delhi NCR, India
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       FLOATING ELEMENTS (sticky quote)
+  ============================================================ -->
+  <script type="text/babel">
+    window.FloatingElements = function FloatingElements() {
+      const { motion } = window.Motion;
+      const [sticky, setSticky] = React.useState(false);
+      React.useEffect(() => {
+        const fn = () => setSticky(window.scrollY > 500);
+        window.addEventListener('scroll', fn, { passive:true });
+        return () => window.removeEventListener('scroll', fn);
+      }, []);
+
+      return (
+        <>
+          {/* Sticky quote button */}
+          {sticky && (
+            <motion.a href="#contact"
+              initial={{ opacity:0, x:30 }} animate={{ opacity:1, x:0 }}
+              className="fixed bottom-6 right-6 z-50 bg-gold text-black font-body font-semibold text-xs px-5 py-3 rounded-full shadow-lg hover:brightness-110 transition-all">
+              Get Quote
+            </motion.a>
+          )}
+        </>
+      );
+    };
+  </script>
+
+  <!-- ============================================================
+       APP ROOT
+  ============================================================ -->
+  <script type="text/babel">
+    function App() {
+      return (
+        <div className="min-h-screen" style={{ background:'#050505' }}>
+          <Navbar />
+          <HeroSection />
+          <ManufacturingSection />
+          <IndustriesSection />
+          <CTAStrip />
+          <ProductShowcase />
+          <ProcessTimeline />
+          <SustainabilitySection />
+          <CTAStrip />
+          <ContactSection />
+          <FooterSection />
+          <FloatingElements />
+        </div>
+      );
+    }
+
+    // window.Motion is set by the sync shim script (before DOMContentLoaded/Babel runs)
+    window.App = App;
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>
